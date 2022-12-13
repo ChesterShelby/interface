@@ -4,5 +4,9 @@
 
 """
 
-result = lambda x, y: x + y
-print(result(4, 5))
+# result = lambda x, y: x + y
+# print(result(4, 5))
+
+
+r = lambda x: 'четное' if x % 2 == 0 else 'Не четное'
+print(r(7))
