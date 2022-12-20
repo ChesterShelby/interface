@@ -6,3 +6,4 @@ result = ''
 for word in word_list:
    result += word + ', '
 print(result)
+print(*word_list)

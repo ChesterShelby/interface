@@ -1,2 +1,4 @@
-with open('example_1.txt') as file:
-    print(file.read())
+with open('example_1.txt', 'r', encoding="utf-8") as file:
+    x = file.readline()
+
+print(x)
