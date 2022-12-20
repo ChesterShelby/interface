@@ -1,0 +1,34 @@
+JSON (англ. JavaScript Object Notation, 1999 г.) - текстовый формат обмена данными, основанный на JavaScript.
+Одно из преимуществ - JSON легко читается людьми (англ. human-readable).
+JSON используется при передачи и получении данных в сети.
+
+
+JSON-текст представляет собой одну из двух структур:
+
+    набор пар ключ: значение (словарь в Python), где ключ - строка, значение - любой тип;
+    упорядоченный набор значений (список в терминологии Python).
+    Значением может являться:
+    строка (в кавычках);
+    число;
+    логическое значение (true/false);
+    null;
+    одна из структур.
+
+
+json.dumps - Сериализует объект obj, возвращая строку в JSON-формате.
+Синтаксис:
+
+        json.dumps(obj, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=None,
+        separators=None, default=None, sort_keys=False, **kw)
+
+    obj – сериализуемый объект;
+    ensure_ascii – если равен False, запись не-ASCII значений происходит в файл «как есть», без преобразования в Unicode;
+    indent – величина отступа для вложенных структур.
+
+json.loads - Десериализует объект (в том числе файловый) s, возвращая структуру в Python.
+Синтаксис:
+
+    json.loads(s, encoding=None, cls=None, object_hook=None, parse_float=None, parse_int=None, parse_constant=None,
+    object_pairs_hook=None, **kw)
+
+    exceptionjson.JSONDecodeError(msg, doc, pos, end=None)  - Класс исключения, возбуждаемый при ошибке в работе некоторых функций пакета.
