@@ -1,6 +1,6 @@
 class Person:
     name = 'Иван'
-    age = 'Иванов'
+    age = 12
 
     def say(self):
         print('Hello')
