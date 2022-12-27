@@ -26,3 +26,6 @@ class SportCar(Car, Transport):
 car1 = SportCar(100, 'yellow', 'Иван')
 car1.beep()
 car1.say_owner()
+
+a = Transport(100, 'kek')
+a.beep()

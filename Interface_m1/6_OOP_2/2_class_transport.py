@@ -6,6 +6,7 @@ class Transport:
     def beep(self):
         print('beep')
 
+
 class Car(Transport):
     def __init__(self, speed, color, owner):
         super().__init__(speed, color)

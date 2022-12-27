@@ -17,7 +17,7 @@ class Car(Transport):
 
 
 class SportCar(Car, Transport):
-   pass
+    pass
 
 
 car1 = SportCar(speed=100, color='yellow', owner='Иван')
