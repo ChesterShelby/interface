@@ -20,3 +20,4 @@ result = (x * x for x in numbers)
 print(next(result))
 print(next(result))
 
+

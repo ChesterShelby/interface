@@ -7,9 +7,9 @@ def func(num):
 result = func(5)
 print(result)
 
-# print(next(result))
-# print(next(result))
-# print(next(result))
+print(next(result))
+print(next(result))
+print(next(result))
 
 """
 При вызове next() функция-генератор выполняет команды до достижения yield. Команда yield возвращает результат, 
