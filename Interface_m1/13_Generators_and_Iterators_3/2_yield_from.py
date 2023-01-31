@@ -23,13 +23,13 @@ for n in func(5):
 """yield from помогает избавится от необходимости управлять перебором вручную."""
 
 
-# def func1(n):
-#     for x in gen1(n):
-#         yield x
-#     for x in gen2(n):
-#         yield x
-#
-# 
-# print()
-# for n in func1(5):
-#     print(n, end=' ')
+def func1(n):
+    for x in gen1(n):
+        yield x
+    for x in gen2(n):
+        yield x
+
+
+print()
+for n in func1(5):
+    print(n, end=' ')

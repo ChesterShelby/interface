@@ -12,7 +12,7 @@ class MyClass:
 obj = MyClass(5)
 for i in obj.__iter__():
     print(i)
-
+print()
 print(next(obj.__iter__()))
 print(next(obj.__iter__()))
 print(next(obj.__iter__()))
