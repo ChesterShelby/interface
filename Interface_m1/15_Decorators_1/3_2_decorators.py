@@ -2,7 +2,8 @@ def decorator_1(func):
     print('декоратор 1')
 
     def wrapper():
-        print('перед функцией')
+        print("перед функцией 2")
+        # print('перед функцией')
         func()
 
     return wrapper
