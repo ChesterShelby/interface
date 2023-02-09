@@ -1,9 +1,9 @@
 def decorator_with_args(func):
     print('> декоратор с аргументами...')
 
-    def decorated(a, b):
+    def decorated(c, d):
         print('до вызова функции', func.__name__)
-        ret = func(a, b)
+        ret = func(c, d)
         print('после вызова функции', func.__name__)
         return ret
 
