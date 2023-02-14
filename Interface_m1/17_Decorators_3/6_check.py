@@ -24,6 +24,6 @@ def do_something():
 
 
 print("старт программы")
-check_value()
-do_something()
+print(check_value())
+print(do_something())
 print('конец программы')
