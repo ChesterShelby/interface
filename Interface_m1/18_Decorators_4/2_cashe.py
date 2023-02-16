@@ -15,14 +15,14 @@ def func(n):
 
 
 start1 = time.time()
-print(func(100000000))
+print(func(10000000))
 end1 = time.time()
 print(end1 - start1, 'секунд')
 start2 = time.time()
-print(func(100000000))
+print(func(10000000))
 end2 = time.time()
 print(end2 - start2, 'секунд')
 start3 = time.time()
-print(func(100000001))
+print(func(10000001))
 end3 = time.time()
 print(end3 - start3, 'секунд')

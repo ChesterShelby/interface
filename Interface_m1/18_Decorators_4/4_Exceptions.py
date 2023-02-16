@@ -1,2 +1,2 @@
-# print(2 + '1')
-print(int('qwerty'))
+print(2 + '1')
+# print(int('qwerty'))

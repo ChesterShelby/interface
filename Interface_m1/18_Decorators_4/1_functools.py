@@ -8,7 +8,7 @@ from functools import wraps
 
 
 def decor(func):
-    @wraps(func)
+    # @wraps(func)
     def wrapper(*args, **kwargs):
         print(func.__name__)
         return func(*args, **kwargs)
