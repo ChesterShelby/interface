@@ -3,6 +3,7 @@
 будут доступны через указатель self
 """
 
+import sys
 from PyQt5 import QtWidgets, uic
 
 
@@ -14,7 +15,6 @@ class MyWindow(QtWidgets.QWidget):
 
 
 if __name__ == "__main__":
-    import sys
 
     app = QtWidgets.QApplication(sys.argv)
     window = MyWindow()
