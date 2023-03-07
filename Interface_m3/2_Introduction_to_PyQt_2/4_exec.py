@@ -24,7 +24,9 @@ from PyQt5 import QtWidgets
 
 
 def on_clicked():
+    print('start')
     time.sleep(10)  # "Засыпаем" на 10 секунд
+    print('end')
 
 
 app = QtWidgets.QApplication(sys.argv)
