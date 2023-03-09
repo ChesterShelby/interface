@@ -36,4 +36,4 @@ windowState() — возвращает комбинацию флагов, обо
 
 Пример проверки использования полноэкранного режима:
 if window.windowState() & QtCore.Qt.WindowFullScreen:
-print("Полноэкранный режим")
+    print("Полноэкранный режим")

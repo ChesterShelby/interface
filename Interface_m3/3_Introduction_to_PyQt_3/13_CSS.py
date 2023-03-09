@@ -34,6 +34,9 @@ mainbox.addWidget(lbl2)
 mainbox.addWidget(box)
 mainbox.addWidget(btn)
 window.setLayout(mainbox)
+
+print(btn.text())
+
 # Выводим окно и запускаем приложение
 window.show()
 sys.exit(app.exec_())
