@@ -42,7 +42,7 @@ setVerticalScrollBarPolicy(<Режим>) — устанавливает режи
 • ScrollBarAlwaysOn — 2 — полоса прокрутки отображается всегда.
 """
 
-from PyQt5.QtWidgets import *
+from PyQt5.QtWidgets import QScrollBar, QLabel, QApplication, QMainWindow
 import sys
 
 
